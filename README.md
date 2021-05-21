@@ -6,11 +6,10 @@ A new Flutter project.
 
 This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## **Notes**
+If you test the application on an emulator there is no problem isA, otherwise, you need to set the URL in the API to your IPV4 local machine address to be able to open and get the application running
+successfully
+"http://192.168.1.2/photos/upload" to -> "http://<your_ip_address>/photos/upload"
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+-AAnother thing, unfortunately, you need to close and reopen the application after uploading a photo to see the changes
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
